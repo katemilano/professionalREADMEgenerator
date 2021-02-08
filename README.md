@@ -29,7 +29,7 @@ npm i
 
 ## Usage
 
-Before you use this repo go ahead and get an api key from xyz.
+Before you use this repo, go to ahead and get an api key from xyz.
 
 ## License
 
@@ -37,7 +37,7 @@ This project is licensed under the APACHE 2.0 license.
 
 ## Contributing
 
-Please read the contribution.md file.
+Please read the contribution.md file
 
 ## Tests
 
