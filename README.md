@@ -9,6 +9,8 @@ This project allows you to run through the terminal in order to answer a series 
 
 ## Table of Content
 
+* [Video](#video)
+
 * [Installation](#installation)
 
 * [Usage](#usage)
@@ -18,6 +20,10 @@ This project allows you to run through the terminal in order to answer a series 
 * [Tests](#tests)
 
 * [Questions](#questions)
+
+## Video
+This video demonstrates how to walk through the application and what it will look like when you are running it.
+https://drive.google.com/file/d/1yFiaEE4g2Iis9qEl1yrS8IzFtLL90s_D/view
 
 ## Installation
 
@@ -51,3 +57,4 @@ npm test
 
 If you have any questins about the repo, you can contact me directly at catherine.ann.milano@gmail.com. You can find more of my work at [katemilano](http://github.com/katemilano/).
     
+
