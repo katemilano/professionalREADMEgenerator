@@ -9,17 +9,23 @@ This project allows you to run through the terminal in order to answer a series 
 
 ## Table of Content
 
+* [Photos](#photos)
+
 * [Video](#video)
 
 * [Installation](#installation)
 
-* [Usage](#usage)
-
-* [Contributing](#contributing)
-
-* [Tests](#tests)
-
 * [Questions](#questions)
+
+## Photos
+Running through the terminal questions
+<img src="pictures/process.png">
+
+What the README file should look like in VS Code
+<img src="pictures/readmefile.png">
+
+What the README file should look like in Github
+<img src="pictures/readmeexample.png">
 
 ## Video
 This video demonstrates how to walk through the application and what it will look like when you are running it.
@@ -33,25 +39,9 @@ To install necessary dependencies, run the following command:
 npm i
 ```
 
-## Usage
-
-
-
 ## License
 
 This project is licensed under the APACHE 2.0 license.
-
-## Contributing
-
-Please read the contribtion.md file 
-
-## Tests
-
-To run test, run the following command:
-
-```bash
-npm test
-```
 
 ## Questions
 
