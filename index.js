@@ -1,3 +1,4 @@
+const fs = require("fs");
 const inquirer = require("inquirer");
 
 inquirer.prompt([
@@ -22,19 +23,22 @@ inquirer.prompt([
     name: 'description'
 },
 {
-    type: 'input',
+    type: 'list',
     message: 'What kind of license should your project have?',
-    name: 'license'
+    name: 'license',
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
 },
 {
     type: 'input',
     message: 'What command should be run to install dependencies?',
-    name: 'commandinstall'
+    name: 'commandinstall',
+    default: 'npm i'
 },
 {
     type: 'input',
     message: 'What command should be run to run tests?',
-    name: 'commandtest'
+    name: 'commandtest',
+    default: 'npm test'
 },
 {
     type: 'input',
@@ -42,8 +46,22 @@ inquirer.prompt([
     name: 'info'
 }
 ]).then(response => {
+    if (response.license === "APACHE 2.0") {
+        var license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    }else if(response.license === "MIT") {
+        var license = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    }else if(var license ="GPL 3.0") {
+        var license = "GPL 3.0 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)";
+    }else if (var license === "BSD 3") {
+        var license = "BSD 3 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    }else {
+        var license = " ";
+    }
+    
     const content = `
 # ${response.project}
+
+${license}
 
 ## Description
 
@@ -65,9 +83,9 @@ ${response.description}
 
 To install necessary dependencies, run the following command:
 
-```
-`${commandinstall}`
-```
+\`\`\`bash
+${response.commandinstall}
+\`\`\`
 
 ## Usage
 
@@ -79,15 +97,15 @@ This project is licensed under the ${response.license} license.
 
 ## Contributing
 
-Please read the
+Please read the contribution.md file.
 
 ## Tests
 
 To run test, run the following command:
 
-```
-`${response.commandtest}`
-```
+\`\`\`bash
+${response.commandtest}
+\`\`\`
 
 ## Questions
 
