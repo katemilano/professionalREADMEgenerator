@@ -44,6 +44,11 @@ inquirer.prompt([
     type: 'input',
     message: 'What does the user need to know about using the repo',
     name: 'info'
+},
+{
+    type: 'input',
+    message: 'What does the user need to know about contributing to the repo?',
+    name: 'contribution'
 }
 ]).then(response => {
     if (response.license === "APACHE 2.0") {
@@ -97,7 +102,7 @@ This project is licensed under the ${response.license} license.
 
 ## Contributing
 
-Please read the contribution.md file.
+${response.contribution}
 
 ## Tests
 

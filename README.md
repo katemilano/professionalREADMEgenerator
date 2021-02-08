@@ -1,5 +1,5 @@
 
-# professional readme generator
+# Professional README Generator
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -29,7 +29,7 @@ npm i
 
 ## Usage
 
-Before you use this repo
+Before you use this repo go ahead and get an api key from xyz.
 
 ## License
 
