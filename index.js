@@ -55,10 +55,10 @@ inquirer.prompt([
         var license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     }else if(response.license === "MIT") {
         var license = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-    }else if(license ="GPL 3.0") {
-        var license = "GPL 3.0 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)";
-    }else if (license === "BSD 3") {
-        var license = "BSD 3 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    }else if(response.license ="GPL 3.0") {
+        var license = "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)";
+    }else if (response.license === "BSD 3") {
+        var license = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
     }else {
         var license = " ";
     }
