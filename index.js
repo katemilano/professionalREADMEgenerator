@@ -89,7 +89,7 @@ ${response.commandinstall}
 
 ## Usage
 
-Before you use this repo
+${response.info}
 
 ## License
 
@@ -109,7 +109,7 @@ ${response.commandtest}
 
 ## Questions
 
-If you have any questins about the repo, you can contact me directly at ${response.email}. You can find more of my work at [${response.username}] (http://github.com/${response.username}/).
+If you have any questins about the repo, you can contact me directly at ${response.email}. You can find more of my work at [${response.username}](http://github.com/${response.username}/).
     `;
 
     fs.writeFile("README.md", content, err => {
