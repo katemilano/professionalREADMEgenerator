@@ -9,6 +9,8 @@ This project allows you to run through the terminal in order to answer a series 
 
 ## Table of Content
 
+* [Video](#Video)
+
 * [Installation](#installation)
 
 * [Usage](#usage)
@@ -18,6 +20,10 @@ This project allows you to run through the terminal in order to answer a series 
 * [Tests](#tests)
 
 * [Questions](#questions)
+
+## Video
+This video demonstrates how to walk through the application and what it will look like when you are running it.
+https://drive.google.com/file/d/1yFiaEE4g2Iis9qEl1yrS8IzFtLL90s_D/view
 
 ## Installation
 
