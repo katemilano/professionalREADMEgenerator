@@ -5,7 +5,7 @@
 
 ## Description
 
-This project allows you to run through the terminal in order to answer a series of questions about your own project ad then takes the information and creates a readme file.
+This project allows you to run through the terminal in order to answer a series of questions about your own project and then takes the information and creates a readme file.
 
 ## Table of Content
 
@@ -29,7 +29,7 @@ npm i
 
 ## Usage
 
-Before you use this repo, go to ahead and get an api key from xyz.
+
 
 ## License
 
@@ -37,7 +37,7 @@ This project is licensed under the APACHE 2.0 license.
 
 ## Contributing
 
-Please read the contribution.md file
+Please read the contribtion.md file 
 
 ## Tests
 
