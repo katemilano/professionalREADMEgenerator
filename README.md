@@ -49,5 +49,5 @@ npm test
 
 ## Questions
 
-If you have any questins about the repo, you can contact me directly at catherine.ann.milano@gmail.com. You can find more of my work at [katemilano] (http://github.com/katemilano/).
+If you have any questins about the repo, you can contact me directly at catherine.ann.milano@gmail.com. You can find more of my work at [katemilano](http://github.com/katemilano/).
     
