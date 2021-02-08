@@ -78,7 +78,9 @@ ${response.description}
 
 * [Usage](#usage)
 
-* [Contributing](#contributing)
+* [License](#license)
+
+* [Contribution](#contribution)
 
 * [Tests](#tests)
 
@@ -100,7 +102,7 @@ ${response.info}
 
 This project is licensed under the ${response.license} license.
 
-## Contributing
+## Contribution
 
 ${response.contribution}
 
