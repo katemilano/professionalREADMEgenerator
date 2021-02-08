@@ -9,15 +9,15 @@ This project allows you to run through the terminal in order to answer a series 
 
 ## Table of Content
 
-* [Installation] (#installation)
+* [Installation](#installation)
 
-* [Usage] (#usage)
+* [Usage](#usage)
 
-* [Contributing] (#contributing)
+* [Contributing](#contributing)
 
-* [Tests] (#tests)
+* [Tests](#tests)
 
-* [Questions] (#questions)
+* [Questions](#questions)
 
 ## Installation
 
